@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+streamlit
+langchain
+openai
+python-multipart     # for file upload handling in FastAPI
+faiss-cpu            # or install faiss via conda if needed
+numpy
+pandas
+tiktoken             # for tokenization if you use OpenAI
