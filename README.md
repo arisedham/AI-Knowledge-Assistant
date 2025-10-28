@@ -89,7 +89,7 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 
 # Run FastAPI backend
-uvicorn app.main:app --reload
+uvicorn app.backend.main:app --reload
 
 # Run Streamlit frontend
 streamlit run app/frontend.py
